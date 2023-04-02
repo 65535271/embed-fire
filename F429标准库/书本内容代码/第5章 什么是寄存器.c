@@ -69,15 +69,15 @@ typedef unsigned short  int     uint16_t;       /* 无符号 16 位变量 */
 /* GPIO 寄存器列表 */
 typedef struct 
 {
-    uint32_t MODER;     /*GPIO 模式寄存器 地址偏移: 0x00 */
-    uint32_t OTYPER;    /*GPIO 输出类型寄存器 地址偏移: 0x04 */
-    uint32_t OSPEEDR;   /*GPIO 输出速度寄存器 地址偏移: 0x08 */
-    uint32_t PUPDR;     /*GPIO 上拉/下拉寄存器 地址偏移: 0x0C */
-    uint32_t IDR;       /*GPIO 输入数据寄存器 地址偏移: 0x10 */
-    uint32_t ODR;       /*GPIO 输出数据寄存器 地址偏移: 0x14 */
+    uint32_t MODER;     /*GPIO 模式寄存器       地址偏移: 0x00 */
+    uint32_t OTYPER;    /*GPIO 输出类型寄存器   地址偏移: 0x04 */
+    uint32_t OSPEEDR;   /*GPIO 输出速度寄存器   地址偏移: 0x08 */
+    uint32_t PUPDR;     /*GPIO 上拉/下拉寄存器  地址偏移: 0x0C */
+    uint32_t IDR;       /*GPIO 输入数据寄存器   地址偏移: 0x10 */
+    uint32_t ODR;       /*GPIO 输出数据寄存器   地址偏移: 0x14 */
     uint16_t BSRRL;     /*GPIO 置位/复位寄存器低 16 位部分 地址偏移: 0x18 */
     uint16_t BSRRH;     /*GPIO 置位/复位寄存器高 16 位部分 地址偏移: 0x1A */
-    uint32_t LCKR;      /*GPIO 配置锁定寄存器 地址偏移: 0x1C */
+    uint32_t LCKR;      /*GPIO 配置锁定寄存器   地址偏移: 0x1C */
     uint32_t AFR[2];    /*GPIO 复用功能配置寄存器 地址偏移: 0x20-0x24 */
 } GPIO_TypeDef;
 
