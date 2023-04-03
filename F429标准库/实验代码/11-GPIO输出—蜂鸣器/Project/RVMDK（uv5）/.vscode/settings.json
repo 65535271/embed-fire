@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "bsp_beep.h": "c",
+        "stm32f4xx.h": "c"
+    }
+}
